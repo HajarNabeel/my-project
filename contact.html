@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+    <html>
+        <head> 
+            <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+            <link rel="stylesheet" href="../css/style.css">
+            <link rel="stylesheet" href="../css/all.min.css">
+
+        </head>
+
+            <Body>
+                <header id="he">
+                    <img src="../images/favicon.svg" width="50" height="50" alt="Not Found">
+                    <a href="" class="logo">Yummy in the Tummy Restaurant</a>
+                <nav>
+                <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="About.html"> About</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Our staff.html">Our Staff</a></li>
+                <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            </header>
+            
+            <h1 class="hpages">Contact</h1>
+		<div>
+			<section class="reservation-form">
+				<fieldset>
+
+            <legend> <h1>Online Reservation </h1></legend>
+			<div>
+              <p><b>
+                Booking request +967-771561461
+                or fill out the order form
+			</b></p>
+
+              <div>
+                <input type="text" name="name" placeholder="Your Name" >
+
+                <input type="tel" name="phone" placeholder="Phone Number">
+              </div>
+
+              <div>
+                  <select name="person" class="input-field">
+                    <option value="1-person">1 Person</option>
+                    <option value="2-person">2 Person</option>
+                    <option value="3-person">3 Person</option>
+                    <option value="4-person">4 Person</option>
+                    <option value="5-person">5 Person</option>
+                    <option value="6-person">6 Person</option>
+                    <option value="7-person">7 Person</option>
+                  </select>
+                </div>
+                  <input type="date" name="reservation-date">
+
+                  <select name="person">
+                    <option value="08:00am">08 : 00 am</option>
+                    <option value="09:00am">09 : 00 am</option>
+                    <option value="010:00am">10 : 00 am</option>
+                    <option value="011:00am">11 : 00 am</option>
+                    <option value="012:00am">12 : 00 am</option>
+                    <option value="01:00pm">01 : 00 pm</option>
+                    <option value="02:00pm">02 : 00 pm</option>
+                    <option value="03:00pm">03 : 00 pm</option>
+                    <option value="04:00pm">04 : 00 pm</option>
+                    <option value="05:00pm">05 : 00 pm</option>
+                    <option value="06:00pm">06 : 00 pm</option>
+                    <option value="07:00pm">07 : 00 pm</option>
+                    <option value="08:00pm">08 : 00 pm</option>
+                    <option value="09:00pm">09 : 00 pm</option>
+                    <option value="10:00pm">10 : 00 pm</option>
+                  </select>
+
+              <textarea name="message" placeholder="Message"></textarea>
+
+              <button type="submit" class="btn">
+                <span class="text text-1">Book A Table</span>
+			</button>
+			<p>
+                
+				<b>To login </b>
+            <div class="login-button">
+            <button id="login" >login</button>
+                </div>
+				 
+			</p>
+			</fieldset>
+            </form>
+      </section>
+
+       
+</head>
+   <div class="popup">
+    <div class="close-btn" >&times;</div>
+    <div class="form">
+        <h2>login</h2>
+        <div class="form-element">
+            <label for="email">Email:</label>
+            <input type="email"id="email" placeholder="enter username@gmail.com">
+        </div>
+        <div class="form-element">
+            <label for="pass">password</label>
+            <input type="password"id="pass" placeholder="enter password" required>
+        </div>
+        <div class="form-element">
+            <input type="checkbox"id="checkbox">
+            <label for="checkbox">Remember me</label>
+        </div>
+        <div class="form-element">
+            <button>sign up</button>
+        </div>
+      
+        <div class="form-element">
+            <input type="submit" value="send">
+        </div>
+        
+        <div>
+            <input type="radio" name="gender">male
+            <input type="radio" name="gender">famale
+
+        </div>
+
+        <div class="form-element">
+           <a href="#">forgot password?</a>
+        </div>
+    </div>
+   </div>
+   <script src="../js/code.js"></script>
+
+            <footer class="foo">
+	All Rights Reserved &copy;<span id="year"></span>
+	<div>
+		<p><i class="fa fa-map-marker">Sana'a</i></p>
+		<p><i class="fa fa-phone">+967-771561461</i></p>
+	    <p><i class="fa fa-envelope"> Hajer@gmail.com </i></p>
+	</div>
+
+</footer>
+<script>
+
+const current_year=document.querySelector('#year');
+current_year.innerHTML=new Date().getFullYear();
+</script> 
+ </body>
+      
+</html>
